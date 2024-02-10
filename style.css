@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    font-size: 4rem;
+    color: #DBEDF3;
+    text-shadow: 9px 0 #DA0463;
+}
+h3,p{
+    font-size: 1.5rem;
+    
+    
+}
+body{
+    text-align: center;
+    margin-top: 10%;
+    background-image: linear-gradient(to right, #ff000000, #ff0000);
+    /* transition: 0.3s; */
+    font-family: "Arvo", cursive;
+
+}
+
+.color{
+    display: inline-flex;
+    gap: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+   border: 2px solid #ffffff;
+    
+   
+
+}
+.col1{
+    
+    background-color:#ff000000
+    
+}
+.col2{
+    background-color:#ff0000;
+}
