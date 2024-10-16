@@ -59,7 +59,7 @@ setTimeout(function () {
     $("body").css("background", "linear-gradient(to right," + color1[num] + "," + color1[num2] + ")");
     $(".col1").css("background-color", color1[num])
     $(".col2").css("background-color", color1[num2])
-    $("p").text("linear-gradient(to right,   " + color1[num] + " , " + color1[num2] + ")")
+    $("p").text("background:linear-gradient(to right,   " + color1[num] + " , " + color1[num2] + ")")
 
 }, 100);
 
